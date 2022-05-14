@@ -1,0 +1,22 @@
+{
+  "name": "stublets-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandyandawang/stublets-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandyandawang/stublets-backend/issues"
+  },
+  "homepage": "https://github.com/anandyandawang/stublets-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
