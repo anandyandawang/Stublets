@@ -8,13 +8,15 @@ var create = require('../helpers/listings/create');
 var getWithFilters = require('../helpers/listings/getWithFilters');
 
 router.post('/', async (req, res) => {
+    console.log(req.body)
     var id = await create(req.body)
     res.send(id)
 })
 
 router.get('/', async (req, res) => {
+    console.log(req.body)
     var listings = await getWithFilters(req.body)
-    res.send(listings) // send student instead of student_id, cuz school
+    res.send(listings)
 })
 
 module.exports = router;
