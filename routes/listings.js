@@ -12,7 +12,7 @@ router.post('/', async (req, res) => {
 })
 
 router.get('/', (req, res) => {
-    res.send('Listings')
+    res.send('Listings') // send student instead of student_id, cuz school
 })
 
 module.exports = router;

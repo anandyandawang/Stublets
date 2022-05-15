@@ -1,0 +1,8 @@
+ALTER TABLE listings
+DROP COLUMN lease_duration;
+
+ALTER TABLE listings
+ADD start_date TIMESTAMP NOT NULL DEFAULT NOW();
+
+ALTER TABLE listings
+ADD end_date TIMESTAMP NOT NULL DEFAULT NOW();
