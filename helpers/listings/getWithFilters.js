@@ -41,7 +41,7 @@ function applyFilters(queryBuilder, filters) {
     }
 
     if (filters.school) {
-        queryBuilder = queryBuilder.andWhere('school', filters.school)
+        queryBuilder = queryBuilder.andWhereILike('school', filters.school)
     }
 
     return queryBuilder
