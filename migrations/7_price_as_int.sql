@@ -1,0 +1,2 @@
+ALTER TABLE listings
+ALTER COLUMN price TYPE INT USING price::INT;
