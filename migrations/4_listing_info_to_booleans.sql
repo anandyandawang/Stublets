@@ -1,0 +1,14 @@
+ALTER TABLE listings
+ALTER COLUMN pets TYPE BOOLEAN USING pets::BOOLEAN;
+    
+ALTER TABLE listings
+ALTER COLUMN ensuite_washroom TYPE BOOLEAN USING ensuite_washroom::BOOLEAN;
+    
+ALTER TABLE listings
+ALTER COLUMN ensuite_laundry TYPE BOOLEAN USING ensuite_laundry::BOOLEAN;
+    
+ALTER TABLE listings
+ALTER COLUMN ac TYPE BOOLEAN USING ac::BOOLEAN;
+    
+ALTER TABLE listings
+ALTER COLUMN utilities TYPE BOOLEAN USING utilities::BOOLEAN;
